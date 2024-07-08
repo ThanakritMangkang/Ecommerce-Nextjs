@@ -2,7 +2,6 @@
 import React, { useEffect, useState } from "react";
 import { getData } from "@/utils/data";
 import Cart from "./Cart";
-import { BiSearch } from "react-icons/bi";
 
 interface Product {
   id: number;
